@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{tcolorbox} % For creating boxes around questions and answers
+
+\title{Consulting Interview Q\&A}
+\author{}
+\date{}
+
+% Disable chktex warning 8 for the file
+% chktex-file 8
+
+\begin{document}
+
+\maketitle
+
+\section*{Questions and Answers}
+
+% Define styles for question and answer boxes
+\tcbset{
+    questionstyle/.style={colback=blue!5!white, colframe=blue!75!black, fonttitle=\bfseries, title=Question},
+    answerstyle/.style={colback=green!5!white, colframe=green!75!black, fonttitle=\bfseries, title=Answer}
+}
+% Sample question and answer format using tcolorbox
+\begin{tcolorbox}[questionstyle]
+    If your life was a newspaper article, what would the headline be?
+\end{tcolorbox}
+
+\begin{tcolorbox}[answerstyle]
+    De inexperto en pocas cosas a inexperto en muchas cosas. Así lo hice.
+\end{tcolorbox}
+
+Tienes que estar seguro de ti mismo. Tienes que saber estar. Tienes que ser agradable. Tienes que ser un líder. Sé una persona ética.
+
+\begin{tcolorbox}[questionstyle]
+    Tell me about yourself.
+\end{tcolorbox}
+
+\begin{tcolorbox}[answerstyle]
+    Me gusta pensar que soy distinto. 
+\end{tcolorbox}
+
+
+\end{document}
